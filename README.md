@@ -2,7 +2,8 @@
 
 # Introduction
 Transposon induced mutagenesis technology has been widely used in functional genomics, especially in reverse genetics. The low sequencing cost make transposon mapping realistic. However, the precision of transposon identification is limited due to read length and coverage depth in the next-generation sequencing technology. To overcome this problem, we develop a convenient and fast bioinformatic software tool, named as Flanking Sequencing Identification (FSI), to map the insertion site of the transposons based on the flanking sequences. It is designed to identify both the transposon and flanking sequences from the third sequencing reads (such as Nanopore), and determine the relative genomic coordinates of the transposons and the neighbor genes. It is also allowed to be used to identify the insertion sites of other transgenic elements, for example, T-DNA and residue sequences in transgenic materials, only when the inserted sequences were known. 
-In addition, FSI is designed for the long reads by Nanopore or PacBio, and might be used for HiSeq short reads, although it has not been tested yet. 
+
+In addition, FSI is designed for the long reads by Nanopore or PacBio, and might be used for HiSeq short reads, as it has been tested successfull in a line of Medicago truncatula with Tnt1 insertion. 
 
 # Dependencies required
 FSI could be run in any of the systems, including windows, Mac and Linux, after the following dependencies are installed. 
