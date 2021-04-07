@@ -35,3 +35,5 @@ FSI generated three output files. The first one contains the summary of insertio
 The second contains the 5’ and 3’ sequences from the Nanopore/PacBio sequencing for each insertion. The sequences could be used for designing primers to validate the insertion. See the example file of “test.fa_insertion_flanking_seqs_nu.txt”.
 The third contains all the reads which cover both the inserted target fragment and the flanking sequences which can be mapped to the reference genome. This file is useful to do the alignment against the reference genome, for example by minimap2. The bam file can be viewed in IGV tool for manually examining the insertion sites. See the example file of “test.fa_flanking.fasta”. 
 
+# About
+FSI is developped by Shangang Jia in China Agricultural Univeristy. It was originally written in Dr. Chi Zhang Lab in University of Nebraska - Lincoln. 
