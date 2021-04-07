@@ -34,13 +34,20 @@ There are two Perl scripts, one R script and one shell script (run_command.sh) i
 
 # Input
 The four input files are required to run FSI in the command line. 
+
 The first one is the fasta file for the inserted target element, for example, Tnt1 or Ds transposons (see the example file of “target.fa”). 
+
 The second is the fasta file which contains all the long reads produced by Nanopore and PacBio sequencing. They might be the re-sequencing of the whole genomes, or the enriched genome sequencing data just like that in the published paper (Li et al., 2020). See the example file of “test.fa”. 
+
 The third is the reference genome, with a fasta format, and the fourth is the genomic annotation file, gtf or gff format. See the example files of “ref.fa” and “ref.gtf”.
 
 # Output
-FSI generated three output files. The first one contains the summary of insertion sites, with five columns, which indicate the information of location (genomic coordinates of insertion), gap (extend of insertion), counts (read counts to support this insertion), gene (neighbor genes within a distance of 2000 bp) and P-value (probability value to reject the hypothesis in Poisson distribution). See the example file of “test.fa_insertion_list_nu.txt_score.csv”.
+FSI generated three output files. 
+
+The first one contains the summary of insertion sites, with five columns, which indicate the information of location (genomic coordinates of insertion), gap (extend of insertion), counts (read counts to support this insertion), gene (neighbor genes within a distance of 2000 bp) and P-value (probability value to reject the hypothesis in Poisson distribution). See the example file of “test.fa_insertion_list_nu.txt_score.csv”.
+
 The second contains the 5’ and 3’ sequences from the Nanopore/PacBio sequencing for each insertion. The sequences could be used for designing primers to validate the insertion. See the example file of “test.fa_insertion_flanking_seqs_nu.txt”.
+
 The third contains all the reads which cover both the inserted target fragment and the flanking sequences which can be mapped to the reference genome. This file is useful to do the alignment against the reference genome, for example by minimap2. The bam file can be viewed in IGV tool for manually examining the insertion sites. See the example file of “test.fa_flanking.fasta”. 
 
 # About
