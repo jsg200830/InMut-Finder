@@ -6,7 +6,7 @@ Transposon induced mutagenesis technology has been widely used in functional gen
 In addition, InMut-Finder is designed for the long reads by Nanopore or PacBio, and might be used for HiSeq short reads, as it has been tested successfull in a line of Medicago truncatula with Tnt1 insertion. 
 
 # Dependencies required
-SILr could be run in any of the systems, including windows, Mac and Linux, after the following dependencies are installed. 
+InMut-Finder could be run in any of the systems, including windows, Mac and Linux, after the following dependencies are installed. 
         1.Perl
         2.R
         3.BlastN
