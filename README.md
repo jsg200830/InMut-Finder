@@ -34,7 +34,7 @@ There are two Perl scripts, one R script and one shell script (run_command.sh), 
 
 
 # Input
-The four input files are required to run SILr in the command line. 
+The four input files are required to run InMut-Finder in the command line. 
 
 The first one is the fasta file for the inserted target element, for example, Tnt1 or Ds transposons (see the example file of “target.fa”). 
 
