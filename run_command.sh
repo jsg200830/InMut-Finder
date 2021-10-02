@@ -46,7 +46,7 @@ export gtffilename="ref.gtf"
 
 
 
-#echo "(0) convert fastq to fastq"
+#echo "(0) convert fastq to fasta"
 
 #perl fastq_to_fasta.pl "$BCNAME".fastq
 
