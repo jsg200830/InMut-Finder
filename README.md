@@ -53,3 +53,6 @@ The third contains all the reads which cover both the inserted target fragment a
 
 # About
 InMut-Finder is developped by both Shangang Jia in China Agricultural University and Chi Zhang in University of Nebraska - Lincoln. 
+
+# Citing InMut-Finder
+Rui Song, Ziyao Wang, Hui Wang, Han Zhang, Xuemeng Wang, Hanh Nguyen, David Holding, Bin Yu, Tom Clemente, Shangang Jia, Chi Zhang. InMut-Finder: a software tool for insertion identification in mutagenesis using Nanopore long reads. BMC Genomics, 2021, 22: 908. 
